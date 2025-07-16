@@ -10,8 +10,8 @@ response = ec2.run_instances(
     KeyName='us-east',                 # Replace with your key pair name
     MaxCount=1,
     MinCount=1,
-    SecurityGroupIds=['sg-08fa173c36136ded3'],
-    SubnetId='subnet-07ac649a81649c532',
+    SecurityGroupIds=['sg-08fa173c3613'],
+    SubnetId='subnet-07ac649a8164',
     TagSpecifications=[
         {
             'ResourceType': 'instance',
