@@ -34,26 +34,6 @@ pip install boto3
 aws configure
 ````
 
----
-
-## 🗂️ Script Structure
-
-| Script No | Script Name                | Description                       |
-| --------- | -------------------------- | --------------------------------- |
-| 01        | `list_regions.py`          | List all AWS regions              |
-| 02        | `list_ec2_instances.py`    | Show EC2 instances with status    |
-| 03        | `start_instance.py`        | Start a given EC2 instance        |
-| 04        | `stop_instance.py`         | Stop a given EC2 instance         |
-| 05        | `list_s3_buckets.py`       | List all S3 buckets               |
-| 06        | `create_s3_bucket.py`      | Create new S3 bucket              |
-| 07        | `upload_to_s3.py`          | Upload file to S3                 |
-| 08        | `download_from_s3.py`      | Download file from S3             |
-| 09        | `tag_ec2_instance.py`      | Add tags to EC2 instance          |
-| 10        | `get_cpu_metrics.py`       | Get EC2 CPU stats from CloudWatch |
-| 11        | `list_iam_users.py`        | List IAM users                    |
-| 12        | `delete_unused_volumes.py` | Remove unattached EBS volumes     |
-
----
 
 ## 🔄 How to Use
 
@@ -71,20 +51,6 @@ Make sure to update any hardcoded values like:
 
 ---
 
-## 📁 Folder Structure
-
-```
-boto3-devops-automation/
-│
-├── scripts/
-│   ├── list_regions.py
-│   ├── start_instance.py
-│   ├── ...
-│
-├── README.md
-├── requirements.txt
-```
-
 ---
 
 ## 📌 Best Practices Followed
@@ -99,21 +65,6 @@ boto3-devops-automation/
 ## 🔐 Security Note
 
 > Avoid hardcoding AWS credentials in scripts. Use environment variables or `aws configure`.
-
----
-
-## 📞 Contact
-
-Maintainer: [Sai Kumar Nerella](mailto:support@example.com)
-Suggestions, issues, or contributions are welcome!
-
----
-
-## 📃 License
-
-MIT License
-
-```
 
 ---
 
