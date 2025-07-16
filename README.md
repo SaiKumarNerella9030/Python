@@ -1,4 +1,3 @@
-````markdown
 # 🛠️ Boto3 DevOps Automation Scripts
 
 A collection of real-world Python scripts using **Boto3** to automate common **AWS DevOps tasks**, organized from **basic to advanced**.
