@@ -61,12 +61,3 @@ Make sure to update any hardcoded values like:
 
 > Avoid hardcoding AWS credentials in scripts. Use environment variables or `aws configure`.
 
----
-
-Would you like me to generate:
-- All the above Python scripts in a folder format?
-- A zipped file with this README?
-- A `requirements.txt` and `.gitignore` file too?
-
-Let me know how you want to organize it.
-```
