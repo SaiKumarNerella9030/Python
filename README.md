@@ -1,7 +1,3 @@
-Here’s a **common `README.md`** for your Boto3-based DevOps Automation Scripts repository. It gives an overview, usage guide, and covers prerequisites — suitable for GitHub or internal documentation.
-
----
-
 ````markdown
 # 🛠️ Boto3 DevOps Automation Scripts
 
